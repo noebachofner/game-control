@@ -148,3 +148,11 @@ target/
 # OS specific
 .DS_Store
 Thumbs.db
+
+*/src/main/resources/config.properties
+.env
+
+# IDE
+.idea/
+*.iml
+target/
