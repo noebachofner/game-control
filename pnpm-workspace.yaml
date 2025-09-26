@@ -1,0 +1,3 @@
+packages:
+- '.'
+- 'scoretable.ui.html'
