@@ -122,6 +122,7 @@ public class GamesOverviewTablePage extends AbstractPageWithTable<Table> {
     @Override
     protected void execAction() {
       GameOverviewForm form = new GameOverviewForm();
+      form.setName(getTable().getNameColumn().getSelectedValue());
       form.start();
       form.waitFor();
     }

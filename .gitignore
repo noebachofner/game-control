@@ -130,3 +130,21 @@ Thumbs.db
 !**/config.properties
 !**/logback.xml
 !**/scout.xml
+# Environment files - NEVER commit these!
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database configuration
+*/src/main/resources/config.properties
+
+# IDE specific
+.idea/
+*.iml
+target/
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
