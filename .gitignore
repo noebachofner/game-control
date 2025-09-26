@@ -1,0 +1,67 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse (falls jemand Eclipse verwendet)
+.metadata/
+.settings/
+.project
+.classpath
+**/.settings/
+**/.project
+**/.classpath
+
+# Maven Build
+**/target/
+dependency-reduced-pom.xml
+
+# Node.js (für UI Module)
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.npm
+**/package-lock.json
+**/pnpm-lock.yaml
+**/pnpm-workspace.yaml
+
+# Scout-spezifische generierte Files
+**/generated/
+**/.scout/
+**/scout-all.jar
+
+# Build directories
+**/build/
+**/bin/
+**/classes/
+**/dist/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Package Files (außer wrapper)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Keep Maven/Gradle Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
