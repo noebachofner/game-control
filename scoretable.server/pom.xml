@@ -12,25 +12,6 @@
   </parent>
 
   <artifactId>scoretable.server</artifactId>
-  <build>
-    <plugins>
-      <!-- Existing plugins... -->
-
-      <!-- .env File Support Plugin -->
-      <plugin>
-        <groupId>me.fabri_ciorby</groupId>
-        <artifactId>maven-env-file-plugin</artifactId>
-        <version>1.0.0</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>env-file</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
   <name>Scoretable Server</name>
 
   <dependencies>
