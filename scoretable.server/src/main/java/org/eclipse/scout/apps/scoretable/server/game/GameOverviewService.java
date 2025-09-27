@@ -26,6 +26,7 @@ public class GameOverviewService implements IGameOverviewService {
         return formData;
     }
 
+
     @Override
     public GameOverviewFormData load(GameOverviewFormData formData) {
         if (!ACCESS.check(new ReadGameOverviewPermission())) {
